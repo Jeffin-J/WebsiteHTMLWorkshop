@@ -93,21 +93,30 @@ code --version
 
 ### Project Setup Steps
 
-1. **Clone the Repository**
+1. **Fork the Repository**
+   Before cloning, you need to fork the repository to your own GitHub account.
+
+   Go to the repository: https://github.com/tudev/WebsiteHTMLWorkshop. (Same fork button on the top right of this page)
+
+   Click the Fork button in the top-right corner of the page.
+
+   This will create a copy of the repository under your GitHub account.
+
+2. **Clone the Repository**
 
    ```bash
    git clone https://github.com/tudev/WebsiteHTMLWorkshop.git
    cd WebsiteHTMLWorkshop
    ```
 
-2. **Install Dependencies**
+3. **Install Dependencies**
    Run the following command to install required npm packages:
 
    ```bash
    npm install
    ```
 
-3. **Update Your Info**
+4. **Update Your Info**
    Open the `resumeData.json` file and update it with your details:
 
    ```json
@@ -122,7 +131,7 @@ code --version
    }
    ```
 
-4. **Run the Project Locally**
+5. **Run the Project Locally**
    Use the following command to start the development server:
 
    ```bash
@@ -131,7 +140,7 @@ code --version
 
    Open http://localhost:3000 in your browser to see your website.
 
-5. **Build for Production**
+6. **Build for Production**
    To generate the optimized files for deployment, run:
 
    ```bash
@@ -140,7 +149,7 @@ code --version
 
    Your site will be ready in the `dist/` folder.
 
-6. **Deploy to Netlify**
+7. **Deploy to Netlify**
    We will cover this step during the workshop
 
 ## 📜 Scripts
